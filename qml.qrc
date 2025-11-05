@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>MainForm.qml</file>
+    </qresource>
+    <qresource prefix="/shaders">
+        <file>shaders/effect.frag</file>
+    </qresource>
+</RCC>
