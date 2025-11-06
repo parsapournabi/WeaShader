@@ -9,6 +9,9 @@ Item {
     ShaderEffect {
         id: shEffect
         anchors.fill: parent
+
+        property vector2d uResolution: Qt.vector2d(width, height)
+
         fragmentShader: $FileManager.readShader(effectFragment)
     }
 
